@@ -1,0 +1,29 @@
+:root {
+  --primary-color: rgba(207, 98, 98, 1);
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --border-color: #dbdbdb;
+  --red-color: #e71618;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  min-height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
