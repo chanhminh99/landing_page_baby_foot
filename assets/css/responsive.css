@@ -462,6 +462,11 @@
   }
 
   /* Criteria */
+  .criteria__title,
+  .criteria__conclusion {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
 
   .criteria__items {
     display: flex;
@@ -489,6 +494,10 @@
     font-size: 1.8rem;
   }
   /* Product video */
+  #product-video {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .product-video-wrapper {
     margin: 0;
     height: 420px;
@@ -563,12 +572,12 @@
 
   .footer-nav {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .footer__link {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-right: 1.2rem;
   }
 }
