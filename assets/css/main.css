@@ -202,7 +202,8 @@ a.header__text:hover {
 }
 
 .comparison__example-img.main {
-  transform: translateY(-16%);
+  position: relative;
+  top: -6rem;
   height: 460px;
 }
 
@@ -330,7 +331,7 @@ a.header__text:hover {
 .buy_product__img-wrapper {
   position: absolute;
   left: 20%;
-  transform: translate(50%, -12%);
+  transform: translate(50%, -15%);
 }
 
 .product__img {

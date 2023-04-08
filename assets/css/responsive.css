@@ -38,6 +38,7 @@
 
   .comparison__example-img.main {
     height: 300px;
+    top: -4rem;
   }
 
   /* Criteria */

@@ -35,8 +35,8 @@
     <!-- Css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/base.css?version=2" />
-    <link rel="stylesheet" href="./assets/css/main.css?version=2" />
-    <link rel="stylesheet" href="./assets/css/responsive.css?version=2" />
+    <link rel="stylesheet" href="./assets/css/main.css?version=3" />
+    <link rel="stylesheet" href="./assets/css/responsive.css?version=3" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
@@ -49,12 +49,31 @@
       rel="stylesheet"
     />
 
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-NLQ65RBF00"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-NLQ65RBF00')
+    </script>
+
     <!-- Boostrap CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <body>
@@ -89,7 +108,12 @@
         id="about"
         class="about-wrapper container bg-white d-flex justify-content-between"
       >
-        <div class="about__details">
+        <div
+          class="about__details"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="500"
+        >
           <span class="about__details-definition fs-3 text d-block mb-5">
             Baby Foot là sản phẩm của Nhật Bản được bày bán rộng rãi trên thị
             trường quốc tế.
@@ -120,9 +144,20 @@
       <!-- Tutorial section -->
       <section id="tutorial">
         <div class="tutorial-wrapper container">
-          <h3 class="header-title text-center">SỬ DỤNG ĐƠN GIẢN VỚI 3 BƯỚC</h3>
+          <h3
+            class="header-title text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
+            SỬ DỤNG ĐƠN GIẢN VỚI 3 BƯỚC
+          </h3>
           <div
             class="tutorial__content d-flex align-items-center justify-content-center"
+            data-aos="fade-up"
+            data-aos-offset="150"
+            data-aos-duration="350"
+            data-aos-easing="ease-out-sine"
           >
             <iframe
               class="tutorial__video flex-grow-1"
@@ -195,14 +230,23 @@
 
       <!-- Explanation section-->
       <section id="explanation" class="container">
-        <h3 class="header-title text-center">
+        <h3
+          class="header-title text-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           THỜI GIAN SẢN PHẨM PHÁT HUY CÔNG DỤNG
         </h3>
 
         <div
           class="explanation__content d-flex align-items-center justify-content-between text-wrap"
         >
-          <span class="explanation__content-text">
+          <span
+            class="explanation__content-text"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
             Trong vòng 5~10 ngày sau, các lớp tế bào da chết cứng đầu sẽ bong ra
             một cách tự nhiên. Thay vào đó là lớp da mới hồng hào và mịn màng
             hơn.
@@ -210,13 +254,20 @@
           <img
             class="explanation__content-img"
             src="./assets/images/baby_foot_effect.png"
+            data-aos="zoom-in-up"
+            data-aos-duration="500"
           />
         </div>
       </section>
 
       <!-- BeforeAndAfter section -->
       <section id="comparison" class="container-fluid">
-        <h3 class="header-title comparison__title text-center text-wrap">
+        <h3
+          class="header-title comparison__title text-center text-wrap"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           QUÁ TRÌNH BONG DA CHẾT SẼ DIỄN RA NHANH CHẬM KHÁC NHAU TUỲ MỖI NGƯỜI
         </h3>
 
@@ -283,27 +334,40 @@
             src="./assets/images/before_after_1.png"
             alt="Before and after 1"
             class="comparison__example-img"
+            data-aos="zoom-in"
           /><img
             src="./assets/images/before_after_2.png"
             alt="Before and after 2"
             class="comparison__example-img main"
+            data-aos="zoom-in"
           /><img
             src="./assets/images/before_after_3.png"
             alt="Before and after 3"
             class="comparison__example-img"
+            data-aos="zoom-in"
           />
         </div>
       </section>
 
       <!--Criteria section  -->
       <section id="criteria" class="container">
-        <h3 class="header-title criteria__title text-center text-wrap">
+        <h3
+          class="header-title criteria__title text-center text-wrap"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           BABY FOOT CÓ ĐỦ 5 TIÊU CHÍ VƯỢT TRỘI GIÚP MANG LẠI ĐÔI CHÂN MỊN MÀNG,
           QUYẾN RŨ
         </h3>
 
         <div class="criteria__items">
-          <div class="criteria__item">
+          <div
+            class="criteria__item"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
             <div class="criteria__item-img-wrapper">
               <img
                 src="./assets/images/baby_foot_criteria_1.png"
@@ -316,7 +380,12 @@
               >Tuân thủ các tiêu chuẩn FDA</span
             >
           </div>
-          <div class="criteria__item">
+          <div
+            class="criteria__item"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
             <div class="criteria__item-img-wrapper">
               <img
                 src="./assets/images/baby_foot_criteria_1.png"
@@ -330,7 +399,12 @@
             </div>
             <span class="criteria__item-explanation">Độ pH trên 3.5</span>
           </div>
-          <div class="criteria__item">
+          <div
+            class="criteria__item"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
             <div class="criteria__item-img-wrapper">
               <img
                 src="./assets/images/baby_foot_criteria_1.png"
@@ -347,7 +421,12 @@
               >Hyproxy Acid under 10%</span
             >
           </div>
-          <div class="criteria__item">
+          <div
+            class="criteria__item"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
             <div class="criteria__item-img-wrapper">
               <img
                 src="./assets/images/baby_foot_criteria_1.png"
@@ -364,7 +443,12 @@
               >Sản phẩm đi kèm gói test</span
             >
           </div>
-          <div class="criteria__item">
+          <div
+            class="criteria__item"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="500"
+          >
             <div class="criteria__item-img-wrapper">
               <img
                 src="./assets/images/baby_foot_criteria_1.png"
@@ -382,7 +466,12 @@
           </div>
         </div>
 
-        <h3 class="header-title criteria__conclusion text-center text-wrap">
+        <h3
+          class="header-title criteria__conclusion text-center text-wrap"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="1000"
+        >
           HÃY TRẢI NGHIỆM THỬ SẢN PHẨM TÚI Ủ CHÂN BABY FOOT ĐẾN TỪ NHẬT BẢN HIỆU
           QUẢ MANG LẠI SẼ KHIẾN BẠN THỰC SỰ BẤT NGỜ!
         </h3>
@@ -406,6 +495,9 @@
             href="https://shope.ee/10WcPRmp6m"
             target="_blank"
             class="buy_product__link"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-duration="500"
             >MUA TẠI ĐÂY !</a
           >
           <div class="buy_product__img-wrapper d-flex">
@@ -426,7 +518,13 @@
       <!-- Warning -->
       <section id="warning">
         <div class="container">
-          <div class="header-title warning-title__wrapper">
+          <div
+            class="header-title warning-title__wrapper"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-offset="50"
+            data-aos-duration="1000"
+          >
             <img
               src="./assets/images/warning-left.png"
               alt="warning"
@@ -442,7 +540,12 @@
             />
           </div>
 
-          <span class="warning-content d-block text-center">
+          <span
+            class="warning-content d-block text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="5000"
+          >
             Hiện nay, trên thị trường rất nhiều sản phẩm Made in Japan bị làm
             giả, như thay đổi kết cấu và thành phần sản phẩm, dẫn đến việc chất
             lượng kém hiệu quả hơn bình thường. Hãy cẩn thận khi lựa chọn và sử
@@ -455,10 +558,17 @@
       <!-- FAQ -->
       <section id="faq" class="container-fluid">
         <div class="faq-wrappeer container">
-          <h3 class="header-title faq__title text-center">FAQ</h3>
+          <h3
+            class="header-title faq__title text-center"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1000"
+          >
+            FAQ
+          </h3>
 
           <ul class="faq__list">
-            <li class="faq__item">
+            <li class="faq__item" data-aos="fade-up" data-aos-offset="100">
               <h4 class="faq__item-title">
                 Q1. Cơ chế làm bong da chết bàn chân là gì ?
               </h4>
@@ -469,7 +579,7 @@
                 bong ra một cách dễ dàng.
               </span>
             </li>
-            <li class="faq__item">
+            <li class="faq__item" data-aos="fade-up" data-aos-offset="100">
               <h4 class="faq__item-title">
                 Q2. Sản phẩm sử dụng bao lâu thì có hiệu quả ?
               </h4>
@@ -478,7 +588,7 @@
                 bộ, thay vào đó là lớp da mới láng mịn, hồng hào.
               </span>
             </li>
-            <li class="faq__item">
+            <li class="faq__item" data-aos="fade-up" data-aos-offset="100">
               <h4 class="faq__item-title">
                 Q3. Sản phẩm có gây tác dụng phụ gì không ?
               </h4>
@@ -491,7 +601,7 @@
                 trước khi dùng.
               </span>
             </li>
-            <li class="faq__item">
+            <li class="faq__item" data-aos="fade-up" data-aos-offset="100">
               <h4 class="faq__item-title">
                 Q4. Có thể sử dụng Baby Foot thường xuyên không ?
               </h4>
@@ -502,7 +612,7 @@
                 hợp để sử dụng lại sản phẩm.
               </span>
             </li>
-            <li class="faq__item">
+            <li class="faq__item" data-aos="fade-up" data-aos-offset="100">
               <h4 class="faq__item-title">
                 Q5. Những đối tượng không nên sử dụng Baby Foot ?
               </h4>
@@ -611,5 +721,7 @@
         </div>
       </footer>
     </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>
