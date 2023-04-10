@@ -8,11 +8,11 @@
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100% !important;
-  height: 760px;
+  height: 800px;
 }
 
 .header__logo {
-  margin: 3.5% 0 2% 5%;
+  margin: 1.5% 0 1.5% 5%;
   width: 14.1%;
   height: 9.5%;
   object-fit: contain;
@@ -41,15 +41,15 @@ a.header__text:hover {
   margin-right: 10rem;
   color: var(--white-color);
   font-weight: bold;
-  font-size: 4.8rem;
-  line-height: 6.4rem;
+  font-size: 4.4rem;
+  line-height: 1.3333;
   text-align: center;
   background-color: #e71618;
   border-radius: 3.6rem;
   border: none;
   padding: 1.6rem;
   width: 35.53rem;
-  height: 9.4rem;
+  height: 8.4rem;
   cursor: pointer;
 }
 
@@ -196,15 +196,22 @@ a.header__text:hover {
   column-gap: 1.4rem;
 }
 
+.carousel-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+
 .comparison__example-img {
-  justify-self: stretch;
+  align-items: baseline;
   height: 350px;
+  width: 20%;
 }
 
 .comparison__example-img.main {
-  position: relative;
-  top: -6rem;
-  height: 460px;
+  height: 420px;
+  width: 25%;
 }
 
 #comparison-slider {
@@ -213,7 +220,7 @@ a.header__text:hover {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-image: 'none' !important;
+  background-image: unset !important;
 }
 
 .carousel-icon {
@@ -339,13 +346,16 @@ a.header__text:hover {
 }
 
 .product__img.left {
-  width: 25%;
+  width: 28%;
+  height: 25%;
+  position: relative;
+  top: 0.5rem;
 }
 
 .product__img.right {
   position: relative;
   left: -6%;
-  top: 1.5rem;
+  top: 0.5rem;
 }
 
 /* Warning */
@@ -429,7 +439,9 @@ a.header__text:hover {
 .footer-information {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 6rem;
 }
 
 .footer__logo {
@@ -451,8 +463,14 @@ a.header__text:hover {
 }
 
 .footer_nav-wrapper {
+  flex-grow: 1;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  flex: 1;
 }
 
 .footer__link {
