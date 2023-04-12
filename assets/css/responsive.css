@@ -12,10 +12,10 @@
     height: 450px;
   }
 
-  .comparison__example-img.main {
+  /* .comparison__example-img.main {
     height: 600px;
     width: 25%;
-  }
+  } */
 }
 
 @media (min-width: 1024px) and (max-width: 1420px) {
@@ -48,9 +48,9 @@
     height: 275px;
   }
 
-  .comparison__example-img.main {
+  /* .comparison__example-img.main {
     height: 325px;
-  }
+  } */
 
   /* Criteria */
 
