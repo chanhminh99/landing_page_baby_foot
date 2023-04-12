@@ -67,13 +67,11 @@
   }
   .criteria__item-explanation {
     font-size: 1.8rem;
+    text-align: start;
+    margin-left: 2rem;
   }
   .criteria__item-img {
     width: 180px;
-  }
-  .criteria__item-explanation {
-    text-align: start;
-    margin-left: 2rem;
   }
 
   /* Tutorial */
@@ -273,7 +271,7 @@
     font-size: 1.6rem;
   }
   .criteria__item-explanation {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .criteria__item-img {
     width: 180px;
@@ -514,7 +512,7 @@
     align-items: center;
   }
   .criteria__item-explanation {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .criteria__item-text-wrapper {
     font-size: 1.4rem;
