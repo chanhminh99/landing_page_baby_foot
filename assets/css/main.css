@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100% !important;
-  height: 800px;
+  height: calc(100vw / 1.677777);
 }
 
 .header__logo {
@@ -42,7 +42,7 @@ a.header__text:hover {
   color: var(--white-color);
   font-weight: bold;
   font-size: 4.4rem;
-  line-height: 1.3333;
+  line-height: 1.5;
   text-align: center;
   background-color: #e71618;
   border-radius: 3.6rem;
@@ -206,8 +206,8 @@ a.header__text:hover {
 
 .comparison__example-img {
   align-items: baseline;
-  height: 350px;
-  width: 20%;
+  height: 375px;
+  width: 30%;
 }
 /*
 .comparison__example-img.main {
@@ -315,7 +315,7 @@ a.header__text:hover {
 .buy_product__link {
   display: inline-block;
   font-size: 8.3rem;
-  line-height: 1.3333;
+  line-height: 1.333;
   font-weight: bold;
   color: var(--red-color);
   padding: 1.6rem 2.4rem;

@@ -1,8 +1,4 @@
 @media (min-width: 1920px) {
-  #main {
-    height: 1050px;
-  }
-
   .buy_product__img-wrapper {
     left: 30%;
   }
@@ -23,10 +19,6 @@
     font-size: 3.2rem;
   }
 
-  #main {
-    height: 650px;
-  }
-
   .header__logo {
     margin: 2% 0 2% 5%;
   }
@@ -43,10 +35,13 @@
   }
 
   /* Comparison */
-
-  .comparison__example-img {
-    height: 275px;
+  .comparison__title {
+    margin-bottom: 5%;
   }
+
+  /* .comparison__example-img {
+    height: 375px;
+  } */
 
   /* .comparison__example-img.main {
     height: 325px;
@@ -71,7 +66,7 @@
     font-size: 1.8rem;
   }
   .criteria__item-explanation {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
   .criteria__item-img {
     width: 180px;
@@ -129,6 +124,7 @@
     width: 48rem;
     height: 5.7rem;
     font-size: 3rem;
+    line-height: 1.5;
     padding: 0.6rem 1.2rem;
   }
 }
@@ -152,17 +148,16 @@
 
   #main {
     position: relative;
-    height: 520px;
   }
 
   .header__text-wrapper {
     text-align: end;
-    margin-right: 2.5rem;
-    margin-top: 0.5rem;
+    margin-right: 3.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .header__text {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .header__btn {
@@ -174,6 +169,13 @@
     margin-right: 2.6rem;
     bottom: 5%;
     position: absolute;
+  }
+
+  .header__logo {
+    margin-top: 1.5rem;
+    margin-right: 2.5rem;
+    width: 14rem;
+    height: 6rem;
   }
 
   .container {
@@ -293,6 +295,7 @@
     width: 28rem;
     height: 5.7rem;
     font-size: 3rem;
+    line-height: 1.5;
     padding: 0.6rem 1.2rem;
     position: relative;
     right: 12%;
@@ -376,28 +379,34 @@
 
   #main {
     position: relative;
-    height: 360px;
   }
 
   .header__text-wrapper {
     text-align: end;
-    margin-top: 0.5rem;
-    margin-right: 2.5rem;
+    margin-top: 0rem;
+    margin-right: 3rem;
   }
 
   .header__text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .header__btn {
-    font-size: 1.6rem;
-    width: 11.8rem !important;
+    font-size: 1.4rem;
+    width: 12rem !important;
     height: 3.2rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.4rem 1.2rem;
     right: 0;
     margin-right: 2.6rem;
     bottom: 5%;
     position: absolute;
+  }
+
+  .header__logo {
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    width: 9rem;
+    height: 5rem;
   }
 
   /* About */
@@ -538,6 +547,7 @@
     width: 16rem;
     height: 3rem;
     font-size: 1.4rem;
+    line-height: 1.5;
     padding: 0.4rem 0.8rem;
     position: relative;
     right: 12%;
