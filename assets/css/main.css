@@ -176,6 +176,7 @@ a.header__text:hover {
 
 .explanation__content-img {
   width: 45%;
+  border-radius: 2.5rem;
 }
 
 /* BeforeAndAfter section  */
@@ -214,7 +215,8 @@ a.header__text:hover {
   width: 25%;
 }
 
-#comparison-slider {
+#comparison-slider,
+#comparison-slider-mobile {
   margin-bottom: 10%;
 }
 
@@ -261,7 +263,7 @@ a.header__text:hover {
   font-size: 2.4rem;
   font-weight: bold;
   position: absolute;
-  left: 45%;
+  left: 50%;
   bottom: 50%;
   transform: translate(-50%, 50%);
   text-align: center;

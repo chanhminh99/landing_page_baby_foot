@@ -52,8 +52,8 @@
     <!-- Css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/base.css?version=2" />
-    <link rel="stylesheet" href="./assets/css/main.css?version=4" />
-    <link rel="stylesheet" href="./assets/css/responsive.css?version=4" />
+    <link rel="stylesheet" href="./assets/css/main.css?version=5" />
+    <link rel="stylesheet" href="./assets/css/responsive.css?version=5" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
@@ -170,14 +170,14 @@
             SỬ DỤNG ĐƠN GIẢN VỚI 3 BƯỚC
           </h3>
           <div
-            class="tutorial__content d-flex align-items-center justify-content-center"
+            class="tutorial__content d-flex align-items-center justify-content-between"
             data-aos="fade-up"
             data-aos-offset="150"
             data-aos-duration="350"
             data-aos-easing="ease-out-sine"
           >
             <iframe
-              class="tutorial__video flex-grow-1"
+              class="tutorial__video"
               src="https://www.youtube.com/embed/_h4yFGx5ZdU"
               title="Baby Foot | Exfoliating Foot Peel Mask"
             ></iframe>
@@ -290,7 +290,7 @@
 
         <div
           id="comparison-slider"
-          class="carousel slide"
+          class="carousel slide hide-on-tablet"
           data-bs-ride="carousel"
           data-bs-touch="true"
         >
@@ -303,28 +303,19 @@
                 />
                 <img
                   src="./assets/images/before_after_2.png"
-                  class="comparison__example-img main hide-on-tablet"
+                  class="comparison__example-img main"
                 />
                 <img
                   src="./assets/images/before_after_3.png"
-                  class="comparison__example-img hide-on-tablet"
+                  class="comparison__example-img"
                 />
               </div>
             </div>
-
             <div class="carousel-item">
               <div class="carousel-image-wrapper">
                 <img
                   src="./assets/images/before_after_2.png"
                   class="comparison__example-img"
-                />
-                <img
-                  src="./assets/images/before_after_3.png"
-                  class="comparison__example-img main hide-on-tablet"
-                />
-                <img
-                  src="./assets/images/before_after_1.png"
-                  class="comparison__example-img hide-on-tablet"
                 />
               </div>
             </div>
@@ -335,13 +326,14 @@
                   src="./assets/images/before_after_3.png"
                   class="comparison__example-img"
                 />
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-image-wrapper">
                 <img
                   src="./assets/images/before_after_1.png"
-                  class="comparison__example-img main hide-on-tablet"
-                />
-                <img
-                  src="./assets/images/before_after_2.png"
-                  class="comparison__example-img hide-on-tablet"
+                  class="comparison__example-img"
                 />
               </div>
             </div>
@@ -365,6 +357,72 @@
             class="carousel-control-next"
             type="button"
             data-bs-target="#comparison-slider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <img
+                src="./assets/images/next_icon.png"
+                class="carousel-icon"
+                alt="next-icon"
+              />
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div
+          id="comparison-slider-mobile"
+          class="carousel slide hide-on-pc"
+          data-bs-ride="carousel"
+          data-bs-touch="true"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-wrapper">
+                <img
+                  src="./assets/images/before_after_2.png"
+                  class="comparison__example-img"
+                />
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-image-wrapper">
+                <img
+                  src="./assets/images/before_after_3.png"
+                  class="comparison__example-img"
+                />
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="carousel-image-wrapper">
+                <img
+                  src="./assets/images/before_after_1.png"
+                  class="comparison__example-img"
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#comparison-slider-mobile"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <img
+                src="./assets/images/previos_icon.png"
+                class="carousel-icon"
+                alt="prev-icon"
+              />
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#comparison-slider-mobile"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true">
