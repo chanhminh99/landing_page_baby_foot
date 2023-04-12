@@ -37,13 +37,10 @@ a.header__text:hover {
 }
 
 .header__btn {
-  display: inline-block;
   margin-right: 10rem;
   color: var(--white-color);
   font-weight: bold;
   font-size: 4.4rem;
-  line-height: 1.5;
-  text-align: center;
   background-color: #e71618;
   border-radius: 3.6rem;
   border: none;
@@ -313,9 +310,10 @@ a.header__text:hover {
 }
 
 .buy_product__link {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 8.3rem;
-  line-height: 1.333;
   font-weight: bold;
   color: var(--red-color);
   padding: 1.6rem 2.4rem;
@@ -323,7 +321,6 @@ a.header__text:hover {
   border-radius: 3.6rem;
   height: 14.2rem;
   width: 78.8rem;
-  text-align: center;
   min-width: max-content;
   background-color: var(--white-color);
   align-self: flex-start;
@@ -340,7 +337,7 @@ a.header__text:hover {
 .buy_product__img-wrapper {
   position: absolute;
   left: 20%;
-  transform: translate(50%, -15%);
+  transform: translate(50%, -10%);
 }
 
 .product__img {

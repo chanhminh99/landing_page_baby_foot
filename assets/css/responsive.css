@@ -122,7 +122,6 @@
     width: 48rem;
     height: 5.7rem;
     font-size: 3rem;
-    line-height: 1.5;
     padding: 0.6rem 1.2rem;
   }
 }
@@ -289,11 +288,15 @@
   .buy_product__wrapper {
     justify-content: center;
   }
+  .product__img.left,
+  .product__img.right {
+    top: 1rem;
+  }
+
   .buy_product__link {
     width: 28rem;
     height: 5.7rem;
     font-size: 3rem;
-    line-height: 1.5;
     padding: 0.6rem 1.2rem;
     position: relative;
     right: 12%;
@@ -545,10 +548,24 @@
     width: 16rem;
     height: 3rem;
     font-size: 1.4rem;
-    line-height: 1.5;
     padding: 0.4rem 0.8rem;
     position: relative;
-    right: 12%;
+    right: 20%;
+  }
+
+  .buy_product__img-wrapper {
+    left: 12%;
+    transform: translate(50%, -8%);
+  }
+
+  .product__img.left {
+    width: 30%;
+  }
+
+  .product__img.right {
+    width: 21%;
+    top: 0.4rem;
+    left: -7%;
   }
 
   /* Warning */
