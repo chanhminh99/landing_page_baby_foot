@@ -5,7 +5,7 @@
 
   /* Comparison */
   .comparison__example-img {
-    height: 450px;
+    height: 545px;
   }
 
   /* .comparison__example-img.main {
@@ -248,8 +248,8 @@
 
   /* Comparison */
   .comparison__example-img {
-    width: 250px;
-    height: 350px;
+    width: 65%;
+    height: 385px;
     margin: 0 auto;
   }
 
@@ -493,8 +493,8 @@
 
   /* Comparison */
   .comparison__example-img {
-    width: 170px;
-    height: 280px;
+    width: 65%;
+    height: 230px;
     margin: 0 auto;
   }
 

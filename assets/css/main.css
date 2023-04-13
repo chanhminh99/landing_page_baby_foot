@@ -204,9 +204,8 @@ a.header__text:hover {
 }
 
 .comparison__example-img {
-  align-items: baseline;
-  height: 375px;
-  width: 30%;
+  height: 405px;
+  width: 35%;
 }
 /*
 .comparison__example-img.main {
