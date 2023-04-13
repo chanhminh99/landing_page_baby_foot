@@ -77,6 +77,7 @@
   /* Tutorial */
   .tutorial__item-image-wrapper {
     margin-bottom: 2rem;
+    margin-left: 1rem;
   }
 
   .tutorial__item-image {
@@ -194,6 +195,7 @@
     flex-direction: column-reverse;
   }
   .tutorial__item-image-wrapper {
+    margin-left: 1rem;
     margin-bottom: 2rem;
   }
 
@@ -435,6 +437,7 @@
     width: 80%;
   }
   .tutorial__item-image-wrapper {
+    margin-left: 1.2rem;
     margin-bottom: 2rem;
   }
 
