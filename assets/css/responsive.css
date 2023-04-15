@@ -562,8 +562,8 @@
     justify-content: center;
   }
   .buy_product__link {
-    width: 12rem;
-    height: 2.6rem;
+    width: 16rem;
+    height: 2.8rem;
     font-size: 1.2rem;
     padding: 0.4rem 0.8rem;
     position: relative;
@@ -571,7 +571,7 @@
   }
 
   .buy_product__img-wrapper {
-    left: 0%;
+    left: 2%;
     transform: translate(50%, -8%);
   }
 
