@@ -51,9 +51,9 @@
 
     <!-- Css -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/base.css?version=3" />
-    <link rel="stylesheet" href="./assets/css/main.css?version=11" />
-    <link rel="stylesheet" href="./assets/css/responsive.css?version=12" />
+    <link rel="stylesheet" href="./assets/css/base.css?version=4" />
+    <link rel="stylesheet" href="./assets/css/main.css?version=12" />
+    <link rel="stylesheet" href="./assets/css/responsive.css?version=13" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
@@ -165,18 +165,13 @@
             SỬ DỤNG ĐƠN GIẢN VỚI 3 BƯỚC
           </h3>
           <div
-            class="tutorial__content d-flex align-items-center justify-content-between"
+            class="tutorial__content d-flex flex-column align-items-center justify-content-between"
             data-aos="fade-up"
             data-aos-offset="150"
             data-aos-duration="350"
             data-aos-easing="ease-out-sine"
           >
-            <iframe
-              class="tutorial__video"
-              src="https://www.youtube.com/embed/_h4yFGx5ZdU"
-              title="Baby Foot | Exfoliating Foot Peel Mask"
-            ></iframe>
-            <ul class="tutorial__list d-flex flex-column">
+            <ul class="tutorial__list">
               <li class="tutorial__item">
                 <div class="tutorial__item-image-wrapper">
                   <img
@@ -190,7 +185,9 @@
                   <span class="tutorial__item-description-title">
                     CHO CHÂN VÀO TÚI
                   </span>
-                  <span class="tutorial__item-description-content">
+                  <span
+                    class="tutorial__item-description-content fs-normal-text"
+                  >
                     Cắt miệng túi dọc theo đường kẻ màu đỏ, cho chân vào bên
                     trong túi ủ và cố định miệng túi bằng miếng dán có sẵn.
                   </span>
@@ -209,7 +206,9 @@
                   <span class="tutorial__item-description-title">
                     NGÂM CHÂN
                   </span>
-                  <span class="tutorial__item-description-content">
+                  <span
+                    class="tutorial__item-description-content fs-normal-text"
+                  >
                     Ủ chân trong túi Baby Foot khoảng 30-60 phút (tùy sản phẩm)
                     để cho dưỡng chất thấm sâu vào da. Trong thời gian chờ có
                     thể hoạt động và di chuyển nhẹ nhàng.
@@ -229,13 +228,20 @@
                   <span class="tutorial__item-description-title">
                     RỬA SẠCH CHÂN
                   </span>
-                  <span class="tutorial__item-description-content">
+                  <span
+                    class="tutorial__item-description-content fs-normal-text"
+                  >
                     Gỡ bỏ túi ủ chân Baby Foot, rửa sạch chân bằng xà bông và
                     nước ấm.
                   </span>
                 </div>
               </li>
             </ul>
+            <iframe
+              class="tutorial__video"
+              src="https://www.youtube.com/embed/_h4yFGx5ZdU"
+              title="Baby Foot | Exfoliating Foot Peel Mask"
+            ></iframe>
           </div>
         </div>
       </section>
@@ -255,7 +261,7 @@
           class="explanation__content d-flex align-items-center justify-content-between text-wrap"
         >
           <span
-            class="explanation__content-text"
+            class="explanation__content-text fs-normal-text"
             data-aos="fade-up"
             data-aos-duration="500"
           >
@@ -274,94 +280,96 @@
 
       <!-- BeforeAndAfter section -->
       <section id="comparison" class="container-fluid">
-        <h3
-          class="header-title comparison__title text-center text-wrap"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          data-aos-duration="1000"
-        >
-          QUÁ TRÌNH BONG DA CHẾT SẼ DIỄN RA NHANH CHẬM KHÁC NHAU TUỲ MỖI NGƯỜI
-        </h3>
+        <div class="comparison-wrapper container">
+          <h3
+            class="header-title comparison__title text-center text-wrap"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1000"
+          >
+            QUÁ TRÌNH BONG DA CHẾT SẼ DIỄN RA NHANH CHẬM KHÁC NHAU TUỲ MỖI NGƯỜI
+          </h3>
 
-        <div class="carousel-image-wrapper hide-on-tablet hide-on-mobile">
-          <img
-            src="./assets/images/before_after_1.png?hash=1681298880131"
-            class="comparison__example-img"
-          />
-          <img
-            src="./assets/images/before_after_2.png?hash=1681298880131"
-            class="comparison__example-img"
-          />
-          <img
-            src="./assets/images/before_after_3.png?hash=1681298880131"
-            class="comparison__example-img"
-          />
-        </div>
-
-        <div
-          id="comparison-slider-mobile"
-          class="carousel slide hide-on-pc"
-          data-bs-ride="carousel"
-          data-bs-touch="true"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="carousel-image-wrapper">
-                <img
-                  src="./assets/images/before_after_2.png?hash=1681298880131"
-                  class="comparison__example-img"
-                />
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="carousel-image-wrapper">
-                <img
-                  src="./assets/images/before_after_3.png?hash=1681298880131"
-                  class="comparison__example-img"
-                />
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="carousel-image-wrapper">
-                <img
-                  src="./assets/images/before_after_1.png?hash=1681298880131"
-                  class="comparison__example-img"
-                />
-              </div>
-            </div>
+          <div class="carousel-image-wrapper hide-on-tablet hide-on-mobile">
+            <img
+              src="./assets/images/before_after_1.png?hash=1681537208430"
+              class="comparison__example-img"
+            />
+            <img
+              src="./assets/images/before_after_2.png?hash=1681537208430"
+              class="comparison__example-img"
+            />
+            <img
+              src="./assets/images/before_after_3.png?hash=1681537208430"
+              class="comparison__example-img"
+            />
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#comparison-slider-mobile"
-            data-bs-slide="prev"
+
+          <div
+            id="comparison-slider-mobile"
+            class="carousel slide hide-on-pc"
+            data-bs-ride="carousel"
+            data-bs-touch="true"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true">
-              <img
-                src="./assets/images/previos_icon.png?hash=1681298880131"
-                class="carousel-icon"
-                alt="prev-icon"
-              />
-            </span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#comparison-slider-mobile"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true">
-              <img
-                src="./assets/images/next_icon.png?hash=1681298880131"
-                class="carousel-icon"
-                alt="next-icon"
-              />
-            </span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-image-wrapper">
+                  <img
+                    src="./assets/images/before_after_2.png?hash=1681298880131"
+                    class="comparison__example-img"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="carousel-image-wrapper">
+                  <img
+                    src="./assets/images/before_after_3.png?hash=1681298880131"
+                    class="comparison__example-img"
+                  />
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="carousel-image-wrapper">
+                  <img
+                    src="./assets/images/before_after_1.png?hash=1681298880131"
+                    class="comparison__example-img"
+                  />
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#comparison-slider-mobile"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <img
+                  src="./assets/images/previos_icon.png?hash=1681298880131"
+                  class="carousel-icon"
+                  alt="prev-icon"
+                />
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#comparison-slider-mobile"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <img
+                  src="./assets/images/next_icon.png?hash=1681298880131"
+                  class="carousel-icon"
+                  alt="next-icon"
+                />
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -377,7 +385,7 @@
           QUYẾN RŨ
         </h3>
 
-        <div class="criteria__items">
+        <div class="criteria__items container">
           <div
             class="criteria__item"
             data-aos="fade-up"
@@ -493,7 +501,7 @@
         </h3>
       </section>
 
-      <section id="product-video" class="container-fluid">
+      <section id="product-video" class="container">
         <div class="product-video-wrapper">
           <iframe
             class="product-video-youtube"
@@ -557,7 +565,7 @@
           </div>
 
           <span
-            class="warning-content d-block text-center"
+            class="warning-content d-block text-center fs-normal-text"
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="5000"
@@ -588,7 +596,7 @@
               <h4 class="faq__item-title">
                 Q1. Cơ chế làm bong da chết bàn chân là gì ?
               </h4>
-              <span class="faq__item-answer text-wrap">
+              <span class="faq__item-answer text-wrap fs-normal-text">
                 A1: Sản phẩm chứa thành phần glycolic acid, hiệu quả cao đối với
                 tế bào chết cứng đầu. Glycolic acid tác động trực tiếp lên tế
                 bào chết, làm mềm vùng da chai cứng ở bàn chân, giúp da chết
@@ -599,7 +607,7 @@
               <h4 class="faq__item-title">
                 Q2. Sản phẩm sử dụng bao lâu thì có hiệu quả ?
               </h4>
-              <span class="faq__item-answer text-wrap">
+              <span class="faq__item-answer text-wrap fs-normal-text">
                 A2: Sau 5 đến 10 ngày sử dụng, da chết bàn chân sẽ bong ra toàn
                 bộ, thay vào đó là lớp da mới láng mịn, hồng hào.
               </span>
@@ -608,7 +616,7 @@
               <h4 class="faq__item-title">
                 Q3. Sản phẩm có gây tác dụng phụ gì không ?
               </h4>
-              <span class="faq__item-answer text-wrap">
+              <span class="faq__item-answer text-wrap fs-normal-text">
                 A3: Thành phần của Baby Foot được chiết xuất từ axit trái cây
                 thiên nhiên, hoàn toàn lành tính và không gây tác dụng phụ. Sản
                 phẩm đã được kiểm định, công nhận và xuất bán tại nhiều nước
@@ -621,7 +629,7 @@
               <h4 class="faq__item-title">
                 Q4. Có thể sử dụng Baby Foot thường xuyên không ?
               </h4>
-              <span class="faq__item-answer text-wrap">
+              <span class="faq__item-answer text-wrap fs-normal-text">
                 A4: Sau khi dùng Baby Foot nếu bạn muốn sử dụng lại nên chờ từ 2
                 -3 tháng. Vì các lớp tế bào chết sần sùi sẽ bong ra thay thế
                 bằng lớp da mới, thời gian 2 -3 tháng sau sẽ là thời điểm thích
@@ -632,7 +640,7 @@
               <h4 class="faq__item-title">
                 Q5. Những đối tượng không nên sử dụng Baby Foot ?
               </h4>
-              <span class="faq__item-answer text-wrap">
+              <span class="faq__item-answer text-wrap fs-normal-text">
                 A5: Đối với trẻ em, làn da còn rất nhạy cảm, khuyến cáo không
                 nên sử dụng sản phẩm. Trường hợp muốn trải nghiệm sản phẩm, nên
                 test một ít lên da trước khi quyết định sử dụng sản phẩm

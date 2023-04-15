@@ -3,12 +3,16 @@
   width: 100%;
 }
 
+.container {
+  max-width: 1070px !important;
+}
+
 #main {
   background-image: url(../images/banner_cario.png);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100% 100% !important;
-  height: calc(100vw / 1.677777);
+  height: 100vh;
 }
 
 .header__logo {
@@ -93,18 +97,20 @@ a.header__text:hover {
   border-radius: 2.4rem;
   height: 45rem;
   width: 80rem;
-  margin-right: 2.5rem;
 }
 
 .tutorial__list {
-  width: 45%;
+  padding: 0;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
 }
 
 .tutorial__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .tutorial__item:last-child {
@@ -152,7 +158,6 @@ a.header__text:hover {
 .tutorial__item-description-content {
   text-align: center;
   color: var(--black-color);
-  font-size: 2.4rem;
   line-height: 1.3333;
 }
 
@@ -168,7 +173,6 @@ a.header__text:hover {
 
 .explanation__content-text {
   font-weight: 500;
-  font-size: 2rem;
   color: var(--black-color);
   margin-right: 2.5rem;
 }
@@ -182,11 +186,11 @@ a.header__text:hover {
 
 #comparison {
   background-color: #fff2eb;
-  padding: 2% 10% 4%;
+  padding: 2% 0% 4%;
 }
 
 .comparison__title {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .comparison__examples {
@@ -204,8 +208,8 @@ a.header__text:hover {
 }
 
 .comparison__example-img {
-  height: 405px;
-  width: 35%;
+  height: 350px;
+  width: 32%;
 }
 /*
 .comparison__example-img.main {
@@ -253,7 +257,7 @@ a.header__text:hover {
 }
 
 .criteria__item-img {
-  width: 250px;
+  width: 196px;
 }
 
 .criteria__item-text-wrapper {
@@ -291,7 +295,7 @@ a.header__text:hover {
 
 .product-video-wrapper {
   height: 600px;
-  margin: 0 2.4rem;
+  margin: 0;
 }
 
 .product-video-youtube {
@@ -314,14 +318,14 @@ a.header__text:hover {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 8.3rem;
+  font-size: 5.5rem;
   font-weight: bold;
   color: var(--red-color);
   padding: 1.6rem 2.4rem;
   border: none;
-  border-radius: 3.6rem;
-  height: 14.2rem;
-  width: 78.8rem;
+  border-radius: 6.5rem;
+  height: 12.2rem;
+  width: 52rem;
   min-width: max-content;
   background-color: var(--white-color);
   align-self: flex-start;
@@ -337,25 +341,25 @@ a.header__text:hover {
 
 .buy_product__img-wrapper {
   position: absolute;
-  left: 20%;
+  left: 0%;
   transform: translate(50%, -10%);
 }
 
 .product__img {
-  width: 20%;
+  height: max-content;
 }
 
 .product__img.left {
-  width: 28%;
-  height: 25%;
+  width: 26%;
   position: relative;
   top: 0.5rem;
 }
 
 .product__img.right {
   position: relative;
+  width: 19%;
   left: -6%;
-  top: 0.5rem;
+  top: -0.25rem;
 }
 
 /* Warning */
@@ -390,7 +394,6 @@ a.header__text:hover {
 
 .warning-content {
   margin-top: 1.8rem;
-  font-size: 2.4rem;
   line-height: 1.33333;
   font-weight: 500;
   color: var(--black-color);
@@ -423,7 +426,6 @@ a.header__text:hover {
 }
 
 .faq__item-answer {
-  font-size: 2.4rem;
   line-height: 1.33333;
   color: var(--black-color);
 }

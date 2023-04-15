@@ -34,3 +34,11 @@ body {
   line-height: 1.33;
   margin-bottom: 5%;
 }
+
+.fs-normal-text {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+ul {
+  padding-left: 0 !important;
+}
