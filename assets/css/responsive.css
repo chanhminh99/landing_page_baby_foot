@@ -301,9 +301,11 @@
   .buy_product__wrapper {
     justify-content: center;
   }
-  .product__img.left,
-  .product__img.right {
+  .product__img.left {
     top: 1rem;
+  }
+  .product__img.right {
+    top: 0.5rem;
   }
 
   .buy_product__link {
@@ -571,7 +573,7 @@
   }
 
   .buy_product__img-wrapper {
-    left: 2%;
+    left: 3%;
     transform: translate(50%, -8%);
   }
 
